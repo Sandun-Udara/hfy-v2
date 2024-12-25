@@ -32,7 +32,7 @@ try {
 
 if (
     process.env.NODE_ENV === `production` &&
-    config.siteUrl === `http://localhost:8000` &&
+    config.siteUrl === `https://hilarious-smakager-ed4e78.netlify.app/` &&
     !process.env.SITEURL
 ) {
     throw new Error(
